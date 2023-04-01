@@ -8,7 +8,7 @@ function Layout() {
       </header>
       <nav>
         <Link to="/">Home</Link>
-        <Link to="/users">Home</Link>
+        <Link to="/users">Users</Link>
         <Link to="/asdf">Unknown</Link>
       </nav>
 
