@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 function Layout() {
   return (
@@ -6,6 +6,11 @@ function Layout() {
       <header>
         <h1>Web Site</h1>
       </header>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/users">Home</Link>
+        <Link to="/asdf">Unknown</Link>
+      </nav>
 
       <Outlet />
 
